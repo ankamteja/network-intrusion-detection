@@ -15,6 +15,7 @@ using NSL-KDD and UNSW-NB15 datasets.
 - Confusion matrices, ROC curves, feature importance plots
 
 ## How to Run
+```bash
 pip install -r requirements.txt
 ```
 
