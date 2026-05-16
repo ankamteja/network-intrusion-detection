@@ -1,20 +1,21 @@
-# Ransomware Detection & Early Warning Using ML
+# Network Intrusion Detection using ML
 
-## Quick Start
-```bash
+ML pipeline for multi-class network threat classification 
+using NSL-KDD and UNSW-NB15 datasets.
+
+## Models Implemented
+- Random Forest
+- SVM
+- KNN
+- Naive Bayes
+- MLP
+
+## Techniques
+- PCA and LDA for dimensionality reduction
+- Confusion matrices, ROC curves, feature importance plots
+
+## How to Run
 pip install -r requirements.txt
-
-# 1. Preprocess (generates data/train.csv, data/test.csv)
-python src/preprocess.ipynb
-
-# 2. Train models
-python src/train.ipynb
-
-# 3. Evaluate (metrics + all plots)
-python src/evaluate.ipynb
-
-# 4. Predict on new data
-python src/predict.ipynb --input <your_file.csv>
 ```
 
 ## Project Structure
