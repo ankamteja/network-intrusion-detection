@@ -19,6 +19,13 @@ using NSL-KDD and UNSW-NB15 datasets.
 pip install -r requirements.txt
 ```
 
+Then run the notebooks in `src/` in order:
+
+1. `preprocess.ipynb` — clean data, generate `train.csv` / `test.csv`
+2. `train.ipynb` — train models, save to `results/`
+3. `evaluate.ipynb` — metrics, confusion matrices, ROC curves
+4. `predict.ipynb` — run inference on new samples
+
 ## Project Structure
 ```
 ransomware_detection/
